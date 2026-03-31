@@ -521,6 +521,22 @@ h3 {
     letter-spacing: 0.08em;
 }
 
+.roadmap-step-completed {
+    position: relative;
+}
+
+.roadmap-step-completed .step-index::after {
+    content: '✓';
+    margin-left: 10px;
+    color: var(--accent);
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.roadmap-step-completed h3 {
+    color: var(--accent);
+}
+
 .opportunity-grid {
     grid-template-columns: minmax(0, 1.1fr) minmax(320px, 0.9fr);
     align-items: start;
