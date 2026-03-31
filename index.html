@@ -1,314 +1,291 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 <head>
-	<!--  App Title  -->
-	<title>AUGMENTED HEARING</title>
-	<!--  App Description  -->
-	<meta name="description" content="...."/>
-	<meta charset="utf-8">
-	<meta name="author" content="DrQ">
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
-	<link rel="stylesheet" type="text/css" href="css/owl.transitions.css"/>
-	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css"/>
-	<link rel="stylesheet" type="text/css" href="css/animate.css"/>
-	<link rel="stylesheet" type="text/css" href="css/main.css"/>
-
-	
-	<!-- <script type="text/javascript" src="js/jquery.js"></script> -->
-	<script type="text/javascript" src="js/ajaxchimp.js"></script>
-	<script type="text/javascript" src="js/scrollTo.js"></script>
-	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
-	<script type="text/javascript" src="js/wow.js"></script>
-	<script type="text/javascript" src="js/parallax.js"></script>
-	<script type="text/javascript" src="js/nicescroll.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
-
-	<link rel="stylesheet" href="css/carousel.min.css">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
-<style>
-    footer {
-        background-color: black; /* Change background to black */
-    }
-
-    footer .copyright {
-        color: white; /* Change email text to white */
-    }
-</style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Augmented Hearing | Open-Source Hearing Enhancement</title>
+    <meta name="description" content="Augmented Hearing combines modern audio engineering with personalized hearing technology to deliver clearer, balanced, real-time sound through accessible software-first tools.">
+    <meta name="author" content="Augmented Hearing">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	
-	<!--  Header Section  -->
-	<header>
-		<div class="container2">
+    <div class="page-shell">
+        <header class="site-header">
+            <div class="container header-row">
+                <a class="brand" href="#top" aria-label="Augmented Hearing home">
+                    <span class="brand-mark">AH</span>
+                    <span class="brand-text">
+                        <strong>Augmented Hearing</strong>
+                        <span>Open-source hearing enhancement</span>
+                    </span>
+                </a>
+                <nav class="site-nav" aria-label="Primary">
+                    <a href="#problem">Problem</a>
+                    <a href="#solution">Solution</a>
+                    <a href="#roadmap">Roadmap</a>
+                    <a href="#team">Team</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
+        </header>
 
+        <main id="top">
+            <section class="hero-section">
+                <div class="hero-orbit hero-orbit-left"></div>
+                <div class="hero-orbit hero-orbit-right"></div>
+                <div class="container hero-grid">
+                    <div class="hero-copy">
+                        <p class="eyebrow">Modern audio engineering for accessible hearing technology</p>
+                        <h1>A tiny sound engineer living inside your computer.</h1>
+                        <p class="hero-text">Augmented Hearing brings real-time audio processing, loudness balancing, hearing-profile personalization, and clearer speech to everyday listening. We are building a software-first alternative to an expensive, outdated hearing technology market.</p>
+                        <div class="hero-actions">
+                            <a class="button button-primary" href="info/AugmentedHearingPitch.pdf">View Pitch Deck</a>
+                            <a class="button button-secondary" href="#solution">Explore the Concept</a>
+                        </div>
+                        <ul class="hero-stats" aria-label="Key figures">
+                            <li>
+                                <strong>1.5B+</strong>
+                                <span>people worldwide experience some degree of hearing loss</span>
+                            </li>
+                            <li>
+                                <strong>$3k-$16k</strong>
+                                <span>typical price range for a pair of hearing aids</span>
+                            </li>
+                            <li>
+                                <strong>1B+</strong>
+                                <span>Windows devices represent the first large software distribution target</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <aside class="hero-panel" aria-label="Signal processing overview">
+                        <div class="signal-card">
+                            <span class="signal-label">Live Processing Chain</span>
+                            <div class="signal-meter">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <ul class="signal-list">
+                                <li>System-wide audio optimization</li>
+                                <li>Multiband dynamic range compression</li>
+                                <li>Volume limiting and loudness leveling</li>
+                                <li>Feedback and noise reduction</li>
+                                <li>Audiogram-based personalization</li>
+                            </ul>
+                        </div>
+                        <div class="highlight-card">
+                            <p>Starting point</p>
+                            <strong>Lightweight Windows middleware</strong>
+                            <span>Improve remote work, streaming, calls, games, podcasts, and media playback without new hardware.</span>
+                        </div>
+                    </aside>
+                </div>
+            </section>
 
-			<nav class="pull-right">
-				<ul class="list-unstyled">
-					<li class="animated wow fadeInRight" data-wow-delay=".1s"><a href="#projects" class="button-menu">SOFTWARE</a></li>
-					<li class="animated wow fadeInRight" data-wow-delay=".2s"><a href="#contact" class="button-menu">CONTACT</a></li>
+            <section class="section section-dark" id="problem">
+                <div class="container">
+                    <div class="section-heading">
+                        <p class="eyebrow">The problem</p>
+                        <h2>Hearing technology is expensive, hardware-bound, and lagging behind modern DSP.</h2>
+                        <p>Augmented Hearing is built on a simple observation from the pitch: professional audio tools already solve many listening problems more effectively than legacy hearing products do.</p>
+                    </div>
+                    <div class="compare-grid">
+                        <article class="compare-card compare-card-muted">
+                            <p class="card-kicker">Traditional hearing technology</p>
+                            <ul>
+                                <li>High upfront cost and slow innovation cycles</li>
+                                <li>Rudimentary EQ and limited real-world sound control</li>
+                                <li>Feedback, poor loudness handling, and usability friction</li>
+                                <li>Battery dependence and fragile specialized hardware</li>
+                                <li>Clinical fitting and distribution model create barriers to access</li>
+                            </ul>
+                        </article>
+                        <article class="compare-card compare-card-accent">
+                            <p class="card-kicker">Modern audio processing</p>
+                            <ul>
+                                <li>Advanced frequency shaping and dynamic range control</li>
+                                <li>Volume limiting, better loudness consistency, and speech clarity</li>
+                                <li>Feedback cancellation and intelligent noise reduction</li>
+                                <li>Fast iteration through software updates instead of hardware refreshes</li>
+                                <li>Affordable deployment on existing devices people already own</li>
+                            </ul>
+                        </article>
+                    </div>
+                    <div class="origin-story">
+                        <div>
+                            <p class="eyebrow">Why now</p>
+                            <h3>The project began with a real-world test, not a theoretical market gap.</h3>
+                        </div>
+                        <p>A simple setup using an old field recorder microphone, wired earbuds, dynamic range compression, and volume limiting improved hearing immediately for Eva Infeld’s 101-year-old grandfather. That result exposed how badly the current hearing technology landscape needs reform and how far professional audio engineering has already advanced beyond it.</p>
+                    </div>
+                </div>
+            </section>
 
+            <section class="section" id="solution">
+                <div class="container">
+                    <div class="section-heading">
+                        <p class="eyebrow">The solution</p>
+                        <h2>Software-first hearing enhancement with a personalized, system-wide DSP layer.</h2>
+                        <p>The immediate goal is a polished, easy-to-use desktop product that improves sound everywhere on a computer, then extends that stack toward dedicated hardware and hearing-aid replacement.</p>
+                    </div>
+                    <div class="pillar-grid">
+                        <article class="pillar-card">
+                            <h3>System-wide audio processing</h3>
+                            <p>Acts across calls, music, video, games, podcasts, and browser audio instead of being confined to a single app or playback context.</p>
+                        </article>
+                        <article class="pillar-card">
+                            <h3>Personalized hearing profile</h3>
+                            <p>Uses an audiogram-style interface to adapt EQ and frequency response to each user’s hearing characteristics.</p>
+                        </article>
+                        <article class="pillar-card">
+                            <h3>Modern DSP chain</h3>
+                            <p>Combines multiband compression, loudness balancing, limiting, and noise or feedback control to produce more consistent listening conditions.</p>
+                        </article>
+                    </div>
+                    <div class="experience-panel">
+                        <div class="experience-column">
+                            <p class="card-kicker">Typical computer audio</p>
+                            <ul>
+                                <li>Volume constantly shifts between apps and media</li>
+                                <li>Speech is unclear in meetings, videos, and streams</li>
+                                <li>Users keep correcting settings by hand</li>
+                                <li>Dialogue and effects are badly balanced</li>
+                                <li>No adaptation to individual hearing ability</li>
+                            </ul>
+                        </div>
+                        <div class="experience-column experience-column-positive">
+                            <p class="card-kicker">With Augmented Hearing</p>
+                            <ul>
+                                <li>Automatic leveling between apps and content types</li>
+                                <li>Clearer speech in calls, podcasts, and online video</li>
+                                <li>Real-time balancing between quiet dialogue and loud effects</li>
+                                <li>Hearing-profile-aware EQ and tonal correction</li>
+                                <li>Consistent, personalized listening with less manual adjustment</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-					<li class="animated wow fadeInRight mobile" data-wow-delay=".2s"><a href="https://github.com/brettpreston/" class="button-menu"> GITHUB <img src="img/github_icon.png" alt="" title="" height="40"></a></li>
-				</ul>
-			</nav>
-<!-- 		
-			<div class="social pull-right">
-				<ul class="list-unstyled">
-					<li class="animated wow fadeInRight" data-wow-delay="0s"><a href="https://www.linkedin.com/in/brett-alexander-preston-3b95a3121/"><img src="img/linkedin.png" alt="" title=""></a></li>
-					<li class="animated wow fadeInRight" data-wow-delay=".1s"><a href="https://zaga.bandcamp.com/"><img src="img/bandcamp.png" alt="" title=""></a></li>
-					<li class="animated wow fadeInRight" data-wow-delay=".2s"><a href="https://www.facebook.com/ZaGaElectronic"><img src="img/facebook.png" alt="" title=""></a></li>
-				</ul>
-			</div>
--->
-			
-		</div>
+            <section class="section section-gridline" id="roadmap">
+                <div class="container">
+                    <div class="section-heading">
+                        <p class="eyebrow">Roadmap</p>
+                        <h2>Release on the platforms with the fewest blockers first, then expand outward.</h2>
+                        <p>The pitch positions Windows middleware as the next product milestone, with a longer arc toward open hardware and a full hearing-aid replacement path.</p>
+                    </div>
+                    <div class="roadmap">
+                        <article class="roadmap-step">
+                            <span class="step-index">01</span>
+                            <h3>Project start</h3>
+                            <p>Validate the audio approach, assemble DSP building blocks, and test the concept on off-the-shelf equipment.</p>
+                        </article>
+                        <article class="roadmap-step">
+                            <span class="step-index">02</span>
+                            <h3>Browser extension</h3>
+                            <p>Deliver accessible sound improvements on a surface where deployment is lighter and iteration is fast.</p>
+                        </article>
+                        <article class="roadmap-step roadmap-step-featured">
+                            <span class="step-index">03</span>
+                            <h3>System-wide PC middleware</h3>
+                            <p>Build the tiny sound engineer inside the computer, beginning with the Windows ecosystem and broad everyday listening use cases.</p>
+                        </article>
+                        <article class="roadmap-step">
+                            <span class="step-index">04</span>
+                            <h3>Hearing-aid replacement</h3>
+                            <p>Carry the same software-first philosophy into open hardware and dedicated assistive audio devices.</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
 
-	</header>
-	<!--  End Header Section  -->
+            <section class="section section-dark">
+                <div class="container opportunity-grid">
+                    <div>
+                        <div class="section-heading section-heading-left">
+                            <p class="eyebrow">Opportunity</p>
+                            <h2>A large market that is still constrained by old product assumptions.</h2>
+                        </div>
+                        <p class="section-copy">The hearing aid industry is estimated at roughly USD 9.8 billion, but the broader accessibility opportunity is larger because many people who need hearing support never enter the formal hearing-aid market at all. A software-first model can reach them earlier, more affordably, and through devices they already use.</p>
+                    </div>
+                    <div class="opportunity-cards">
+                        <article class="mini-card">
+                            <h3>Business model options</h3>
+                            <p>Premium desktop software, one-time pro licensing, DSP licensing for platforms, and hardware partnerships for accessible listening products.</p>
+                        </article>
+                        <article class="mini-card">
+                            <h3>Distribution advantage</h3>
+                            <p>Scale through existing computers and consumer devices before adding manufacturing complexity.</p>
+                        </article>
+                        <article class="mini-card">
+                            <h3>Why this team</h3>
+                            <p>Rare overlap between advanced audio engineering, open-source execution, grants experience, and product accessibility focus.</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
 
+            <section class="section" id="team">
+                <div class="container">
+                    <div class="section-heading">
+                        <p class="eyebrow">Team</p>
+                        <h2>Built by experienced open-source and audio engineering practitioners.</h2>
+                        <p>The founding team combines grant delivery, research, security and privacy software experience, and deep expertise in audio DSP, music production, and sound design.</p>
+                    </div>
+                    <div class="team-grid">
+                        <article class="team-card">
+                            <p class="card-kicker">Co-founder</p>
+                            <h3>Dr Eva Infeld</h3>
+                            <p>Mathematician, coder, and researcher with a long track record in free and open-source software, cryptographic tools, security research, and coordinating successful grant-funded technical projects.</p>
+                            <a href="https://evainfeld.github.io/">evainfeld.github.io</a>
+                        </article>
+                        <article class="team-card">
+                            <p class="card-kicker">Co-founder</p>
+                            <h3>Brett Alexander Preston</h3>
+                            <p>Audio software engineer, producer, composer, and sound designer whose work in DSP, accessibility, privacy-preserving audio, and immersive sound underpins the technical direction of the project.</p>
+                            <div class="team-links">
+                                <a href="https://brettpreston.github.io">Portfolio</a>
+                                <a href="https://zaga.music">Music</a>
+                                <a href="https://github.com/brettpreston/Rustic_Audio">Rustic Audio</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
 
+            <section class="section section-accent" id="contact">
+                <div class="container funding-panel">
+                    <div>
+                        <p class="eyebrow">Current raise</p>
+                        <h2>Funding the polished desktop middleware stage.</h2>
+                        <p>The pitch targets a focused build phase for a production-grade PC middleware product, supported by experienced coders and UX or UI collaborators. Beyond software, the team has already prepared manufacturing and research connections for later hardware development.</p>
+                    </div>
+                    <div class="funding-card">
+                        <h3>Project links</h3>
+                        <ul>
+                            <li><a href="info/AugmentedHearingPitch.pdf">Download the Augmented Hearing pitch deck</a></li>
+                            <li><a href="https://github.com/brettpreston/Rustic_Audio">Explore related DSP work</a></li>
+                            <li><a href="mailto:brett.alexander.preston@gmail.com">brett.alexander.preston@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
 
-
-
-
-<section class="testimonials animated wow fadeIn" id="team">
-
-	<div class="container container2">
-<!-- Carousel 1, general -->
-
-<h2 class="tagline text-uppercase no-mobile"></br>AUGMENTED HEARING</br> IS A FREE AND OPEN SOURCE SOFTWARE PROJECT</br>BRINGING YOU AN ALTERNATIVE TO HEARING AIDS</br></br></h2>
-
-<h3 class="tagline2">
-The hearing aid space is antiquated and overpriced and badly in need of a widely available and 
-easy to use open source alternative. 5 manufacturers control 99% of the global market, 
-and have little incentive to innovate or compete on prices, so hearing aids cost thousands of Euros. 
-Everyone we meet has either themselves or through a loved one had a bad experience with hearing aids, 
-or experienced quality of life issues with hearing loss.
-
-We've been working on making an alternative with our knowledge of professional audio technology, 
-which has long outpaced the medical hearing aid realm.</br></br>
-</h3>
-
-<h4 class="tagline2">
-The hearing aid industry is worth an estimated $9.8
-billion, and shows signs of cartel pricing. It is slow to
-adopt progress in audio technology. The sound quality,
-feedback, and ease of use of hearing aids can be awful,
-especially considering that they are often meant for
-seniors. We do not hope to enter the industry of
-medically-accredited devices, due to gatekeeping, and do
-not call our project a “hearing aid” – but we hope to
-outperform it still. We will call it hearing enhancement.
-There are commercial efforts to enter this space,
-including by the leading technology corporations. These
-are sometimes more accessible, but proprietary, and raise
-privacy concerns. They include many smartphone apps that
-are predatory, operating on a subscription model that
-puts them out of range for many people, especially in the
-poorer areas of the world.
-There have been some open source efforts to solve these
-problems. We analyzed their progress with interest. We are learning from 
-their shortcomings and strengths, and building a technology that is easy to ue and accessible.
-</h4>
-
-
-</div>
-<div class="container container2">
-<div id="demo1" class="carousel slide" data-bs-ride="carousel">
-  <!-- Indicators/dots -->
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#demo1" data-bs-slide-to="0" class="active"></button>
-    <button type="button" data-bs-target="#demo1" data-bs-slide-to="1"></button>
-    <button type="button" data-bs-target="#demo1" data-bs-slide-to="2"></button>
-  </div>
- 
-  <!-- The slideshow/carousel -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-
-      <img src="img/slide-rustic.jpg" alt="Los Angeles" class="d-block w-100"> <!-- rustic audio -->
-	  <button class="button-slides tagline" style="position: absolute; right: 10%; top: 10%"><a href="http://github.com/brettpreston/Rustic_Audio">Rustic Audio</a></button>	
-
-	  <div class="caption  no-mobile">
-		<h1 class="text-uppercase  animated wow fadeInRight">Rustic Audio: </h1><h2> Rust-based DSP for voice cleaning</h2><h4>by Brett Preston</h4></br>
-		<p  animated wow fadeInRight">It allows you to record voice, apply a DSP effects chain tailored to cleaning voice recordings, 
-			and encode it as a highly compressed Opus file. 
-			It was created for settings where bandwidth is scarce, such as powerful privacy-preserving communication, but we still want to preserve the 
-			legibility and quality of voice recording. 
-			Any project pursuing low-footprint, efficiently computed and good quality voice recordings may be interested in using it.
-		</br>Created with the support of NLnet foundation.
-
-		</br></br>
-	Available at <a href="http://github.com/brettpreston/Rustic_Audio">http://github.com/brettpreston/Rustic_Audio</a>,</br>
-and <a href="https://crates.io/crates/rustic_audio_tool">https://crates.io/crates/rustic_audio_tool</a>.</p>
-
-	</div>
+        <footer class="site-footer">
+            <div class="container footer-row">
+                <p>Augmented Hearing is a software-first hearing enhancement project combining open-source values with modern audio engineering.</p>
+                <a href="#top">Back to top</a>
+            </div>
+        </footer>
     </div>
-    <div class="carousel-item">
-		<img src="img/slide-cubetopia.jpg" alt="Los Angeles" class="d-block w-100"> <!-- cubetopia -->
-		<div class="caption1  no-mobile">
-			<h1>CUBETOPIA</h1>
-			<h4 class="text-uppercase">A game about building a better world, made with the support of <a href="https://www.ccc.de/en/home">Chaos Computer Club</a>  to celebrate its 42 years of groundbreaking innovation.
-			</br></br>
-I was the main developer, composer, sound designer and 3D artist.
-		</br></br>
-		Available to play at <a href="http://cubetopia.art">http://cubetopia.art</a></h4>
-	
-		</div>
-		<button class="button-slides tagline" style="position: absolute; right: 10%; top: 10%"><a href="https://cubetopia.art">CUBETOPIA</a></button>	
-
-    </div>
-    <div class="carousel-item">
-      <img src="img/slide-stars.jpg" alt="New York" class="d-block w-100"> <!-- stars -->
-	  <div class="caption1  no-mobile"><h1>S.T.A.R.S. VR</h1><h3 class="text-uppercase">position: </br>audio director</h3>
-<h4 class="text-uppercase"></br></br>music</br>composition</br></br>sound design</br></br>ambisonics</h4>
-	  </div>
-		<button class="button-stars"><a href="https://stars-vr.com/#trailer">TRAILER</a></button>
-		<button class="button-slides tagline" style="position: absolute; right: 2%; top: 10%"><a href="https://stars-vr.com/#trailer">S.T.A.R.S. VR</a></button>	
-    </div>
-  </div>
-
-  <!-- Left and right controls/icons -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#demo1" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#demo1" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
-</div>
-
-
-
-
-</div>
-
-</section>
-
-
-
-
-	 
-
-
-
-	<!--  Footer Section  -->
-	<footer id="contact">
-		<ul class="list-unstyled list-inline app_platform">
-			<li class="animated wow fadeInRight" data-wow-delay="0s"><a href="https://www.linkedin.com/in/brett-alexander-preston-3b95a3121/"><img src="img/linkedin.png" alt="" title=""></a></li>
-			<li class="animated wow fadeInRight" data-wow-delay=".1s"><a href="https://zaga.bandcamp.com/"><img src="img/bandcamp.png" alt="" title=""></a></li>
-			<li class="animated wow fadeInRight" data-wow-delay=".2s"><a href="https://www.facebook.com/ZaGaElectronic"><img src="img/facebook.png" alt="" title=""></a></li>
-			<li class="animated wow fadeInRight" data-wow-delay=".3s"><a href="https://open.spotify.com/artist/2TBJle3dsOIA3xOdnAIa3x"><img src="img/spotify.png" alt="" title=""></a></li>
-			<li class="animated wow fadeInDown" data-wow-delay=".4s">
-				<a href="https://soundcloud.com/zaga"><img src="img/soundcloud.png" alt="" title=""></a>
-			</li>
-			<li class="animated wow fadeInDown" data-wow-delay=".5s">
-				<a href="https://www.youtube.com/channel/UCA7NrjsWQXsunhjGJrTFyqw"><img src="img/youtube.png" alt="" title=""></a>
-			</li>
-			<li class="animated wow fadeInDown" data-wow-delay=".6s">
-				<a href="https://www.mixcloud.com/brettpreston/"><img src="img/mixcloud.png" alt="" title=""></a>
-			</li>
-			<li class="animated wow fadeInRight" data-wow-delay=".7s"><a href="https://www.instagram.com/7nihilate/"><img src="img/insta.png" alt="" title=""></a></li>
-			
-		</ul>
-		<p class="copyright animated wow fadeIn" data-wow-duration=".8s"> brett.alexander.preston(at)gmail.com</p>
-	</footer>
-	<!--  End Footer Section  -->
-
-
-
-
-
-
-
-
-
-
-
-
-	<!--  About Section  
-	<section class="about" id="about">
-	
-	
-	
-	
-	
-	
-		
-			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-			<div class="col-sm-12 text-center animated wow fadeInRight">
-			    </br></br>
-				<div class="col-md-2 text-center">
-						<img src="img/anna.PNG" width="100%" alt="" titl="">	
-				</div>	
-				<div class="col-md-8 text-center">
-				<p align="justify">Anna is an organiser in an embattled trade union, engaged in heated negotiations. She often needs to make decisions in a matter of hours, but quite often she would like to be able to get input from the union members.</p>
-				<h1 class="text-uppercase">With Impakt, Anna easily create polls for union members, and notify those eligible to vote with a push alert.</h1>
-				</div>	
-				<div class="col-md-2 text-center">
-				<img src="img/participation2.PNG" width="70%" alt="">	
-				</div>	
-			</div>
-			<div class="col-sm-12 text-center animated wow fadeInLeft">
-			    </br></br>
-				<div class="col-md-2 text-center">
-						<img src="img/pete.png" width="100%" alt="" titl="">	
-				</div>	
-				<div class="col-md-8 text-center">
-				<p align="justify">Pete works with Greg at the construction site, and he thinks Greg has a lot of great ideas. But he has a family to feed and doesn't want to make waves with the bosses. He's afraid to openly support a union.
-				He was relieved when Greg explained to him that <i>Impakt</i> has <i>domain fronting</i> - that is, the network operator can't see that you're connecting to it.</p>
-				<h1 class="text-uppercase">So even if Pete uses the work wifi, the bosses won't know that he's supporting the movement.
-				</h1><p>Also, the server doesn't store identifying information, and Pete never had to so much as give his real name.
-				</p>
-				</div>	
-				<div class="col-md-2 text-center">
-				<img src="img/anonymity.PNG" width="100%" alt="">	
-
-				</div>	
-
-			</div>				
-			<div class="col-sm-12 text-center animated wow fadeInRight">
-			    </br></br>
-								<div class="col-md-2 text-center">
-						<img src="img/agnieszka.png" width="100%" alt="" titl="">	
-				</div>	
-				<div class="col-md-8 text-center">
-				<p align="justify">Agnieszka lives in a country with mid-level surveillance capabilities and has concerns about rapidly diminishing civil liberties. She would like to get people involved in direct action, but has concerns about repercussions.
-				</br></br>She decided to use <i>Impakt</i> to coordinate, because the app is <i>stateless</i> - if anyone's phone gets seized the app will not show what they have been doing in it. She also likes the fact that all chats are <i>ephemeral</i> - the contents dissapear after a short time. No personal data is being collected by the <i>Impakt</i> server. On any Impakt screen, one can trace two circles to activate a <i>panic alert</i> and notify other members of the movement that they need help. This is the only time that the Impakt app uses a device's location.</p>
-				</div>	
-				<div class="col-md-2 text-center">
-				<img src="img/ephemerality.PNG" width="70%" alt="">	
-
-				</div>	
-	 
-	 		</div>
-		</div>		
-
-	</section>
-	 End Footer Section      
-	<footer>
-		<ul class="list-unstyled list-inline app_platform">
-			<li class="animated wow fadeInDown" data-wow-delay="0s">
-				<a href=""><img src="img/android_icon.png" alt="" title=""></a>
-			</li>
-			<li class="animated wow fadeInDown" data-wow-delay=".1s">
-				<a href=""><img src="img/ios_icon.png" alt="" title=""></a>
-			</li>
-			<li class="animated wow fadeInDown" data-wow-delay=".2s">
-				<a href=""><img src="img/windows_icon.png" alt="" title=""></a>
-			</li>
-		</ul>
-		
-	</footer>
--->
-
-
 </body>
 </html>
-
-
